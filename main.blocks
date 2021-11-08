@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="#pc{Orct0_4#)$_E[4Ef" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="oS$-PU5JE^m(LaH*=am;"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></statement></block><block type="device_forever" id="^]H9wbg]o?Cnmz@ftPf:" x="205" y="0"/><block type="bluetooth_on_connected" id="ovozB+p}OyJwNsDtN}Mt" x="548" y="63"><statement name="HANDLER"><block type="device_show_leds" id="v=D=ixcO}+*YI3#:4Us4"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block><block type="bluetooth_on_disconnected" id="[e?YNH:yEHcYV1?aaxoO" x="232" y="122"><statement name="HANDLER"><block type="device_show_leds" id="at^%N+WUovS~}@+jM$~/"><field name="LEDS">`
+        . # . # . 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block><block type="control_on_event" id="7!utsYXz5|9lt]OzNvZy" x="-144" y="472"><value name="src"><shadow type="control_event_source_id" id="=_iq8}|ccrZCxzU.GN%^"><field name="id">EventBusSource.MES_DPAD_CONTROLLER_ID</field></shadow></value><value name="value"><shadow type="control_event_value_id" id="Em82(ZKDXVh0J:l8L_@2"><field name="id">EventBusValue.MICROBIT_EVT_ANY</field></shadow></value><statement name="HANDLER"><block type="controls_if" id="+rj[n!GznoX($0EyfRjy"><mutation elseif="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="2H.UH_(7RD.}CH9NE)ju"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="control_event_value&quot;" id="~X18BsFF:k.fl#H.W^l%"/></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="control_event_value_id" id="`*@-x~x-k:HO6D:;Wtlz"><field name="id">EventBusValue.MES_DPAD_BUTTON_A_UP</field></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="@Ovpth4gL|/=0-(m:u_s"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="0_pz=Ga^wE#vSU}j@gx%"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="control_event_value&quot;" id="/x|~sCAkRlQ!+PoW2xi^"/></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="control_event_value_id" id="DwAPVUNZag-BBA(Ltqq0"><field name="id">EventBusValue.MES_DPAD_BUTTON_B_DOWN</field></block></value></block></value><statement name="DO1"><block type="device_show_leds" id="}nk2Q[{n6l/O4$Vv(6@M"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement></block></statement></block></xml>
